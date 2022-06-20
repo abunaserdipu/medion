@@ -1,0 +1,296 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*header start*/
+.header .navbar{
+	width: 100%;
+	background-color: #2F2E2E;
+	color: #E5E5E5;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+}
+.logo span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.menu li{
+	display: inline-block;
+	padding: 20px; 
+}
+.menu li a{
+	color: #E5E5E5;
+}
+.search-input input{
+	padding: 5px;
+	font-size: 15px;
+}
+.search-input span img{
+	width: 30px;
+	position: absolute;
+	top: 23px;
+	right: 100px;
+	padding-left: 10px;
+}
+/*header end*/
+
+/*banner start*/
+.banner .hero-bg{
+	background-image: url('images/hero-bg.jpg');
+	width: 100%;
+	height: 100vh;
+}
+.banner-img{
+	width: 27%;
+	height: auto;
+	float: left;
+	padding: 10% 0;
+	margin-left: 7%;
+}
+.banner-img img{
+	width: 100%;
+	height: auto;
+}
+.banner-text{
+	width: 62%;
+	padding: 9% 5%;
+	float: left;
+}
+.banner-text .top-text{
+	font-size: 45px;
+}
+.banner-text h3{
+	font-size: 70px;
+	color: #FFFFFF;
+}
+.bottom-text{
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+.banner-btn{
+	border: 1px solid #2B2B2B;
+	background-color: #2B2B2B;
+	color: #E5E5E5;
+	text-align: center;
+	width: 20%;
+	padding: 10px;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.banner-btn:hover{
+	border: 1px solid #2B2B2B;
+	background-color: rgba(78, 246, 278, 0.1);
+	color: #2B2B2B;
+}
+/*banner end*/
+
+/*photo gallery start*/
+.container{
+	padding: 50px 100px;
+}
+.photo-title{
+	margin: 20px 0;
+	font-size: 30px;
+}
+.photo-gallery1{
+	width: 100%;
+	float: left;
+}
+.photo-gallery2{
+	width: 100%;
+	float: left;
+	padding: 0 0;
+}
+.photo-gallery3{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+}
+ .photo{
+	width: 23%;
+	margin: 1% 1%;
+	border: 1px solid #2B2B2B;
+	text-align: center;
+	float: left;
+	position: relative;
+	}
+	.photo img{
+		width: 100%;
+		height: auto;
+	}
+.photo button{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30%;
+	padding: 2%;
+	border: 1px solid #2B2B2B;
+	background-color: #2B2B2B;
+	color: #E5E5E5;
+	font-size: 15px;
+}
+.photo button:hover{
+	background-color: rgb(78, 246, 278);
+	color: #2B2B2B;
+	border: none;
+}
+.photo-text {
+	display: flex;
+	justify-content: space-around;
+}
+.photo-text .medicine-name{
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.photo-text .medicine-price{
+	font-weight: bold;
+	font-size: 17px;
+}
+.photo-text .medicine-price span{
+	color: #4CEFE2;
+	font-weight: bolder;
+	letter-spacing: 3px;
+}
+/*photo gallery end*/
+
+/*About section start*/
+.about-container{
+	clear: both;
+	background-color: #F6F6F6;
+	padding: 50px 0;
+}
+.about{
+	text-align: center;
+	margin: 0 100px;
+}
+.about-title{
+	padding-top: 20px;
+	/*margin-top: 50px;*/
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.about-img{
+	margin-top: 50px;
+}
+.about-text{
+	margin-top: 30px;
+}
+.about-btn{
+	border: 1px solid #2B2B2B;
+	background-color: #2B2B2B;
+	color: #E5E5E5;
+	text-align: center;
+	width: 15%;
+	padding: 10px;
+	margin: 50px 0;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+.about-btn:hover{
+	background-color: #F6F6F6;
+	color: #2B2B2B;
+}
+/*About section end*/
+
+/*Contact section start*/
+.contact-container{
+	clear: both;
+	width: 100%;
+	height: 100vh;
+	padding: 100px 0;
+}
+.contact{
+	padding: 0 100px;
+}
+.contact-title{
+	font-size: 30px;
+	margin: 10px 0 10px 100px;
+	text-transform: uppercase;
+}
+.contact-line{
+	border-bottom: 3px solid #4CEFE2;
+	width: 5%;
+}
+.contact-form{
+	float: left;
+	width: 50%;
+	margin-left: 10%;
+}
+.contact-form input{
+	width: 90%;
+	padding: 5px;
+}
+.contact-form select{
+	width: 90%;
+	padding: 5px;
+}
+.contact-form textarea{
+	width: 90%;
+	padding: 5px;
+}
+.contact-form input[type=button]{
+	border: 1px solid #2B2B2B;
+	border-radius: 5px;
+	background-color: #2B2B2B;
+	color: #E5E5E5;
+	text-align: center;
+	width: 20%;
+	padding: 10px;
+	margin: 30px 0;
+	font-size: 15px;
+}
+.contact-form input[type=button]:hover{
+	background-color: #FCFCFC;
+	color: #2B2B2B;
+
+}
+.contact-form label{
+	padding: 10px 0;
+}
+.contact-img{
+	float: left;
+	background-image: url(images/contact-bg.jpg);
+	margin-top: 20px;
+	padding: 70px 40px;
+	width: 40%;
+}
+.img-title{
+	font-size: 30px;
+	font-weight: bold;
+	color: #E5E5E5;
+	text-align: center;
+}
+.img-text{
+	padding: 30px 0;
+	color: #E5E5E5;
+	text-align: center;
+}
+/*Contact section end*/
+
+/*Footer section start*/
+.footer{
+	clear: both;
+	background-color: #2F2E2E;
+	color: #E5E5E5;
+}
+.footer p{
+	text-align: center;
+	padding: 10px;
+}
+.footer p span{
+	color: #4CEFE2;
+}
+/*Footer section end*/
